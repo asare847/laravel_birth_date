@@ -1,1 +1,1 @@
-Adding date of birth to registration from calender
+Adding date of birth to registration from calender using jQuery datepicker
