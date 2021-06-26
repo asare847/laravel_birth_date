@@ -21,10 +21,9 @@ Add birth date input to register.php
 
 <img src="https://github.com/asare847/laravel_birth_date/blob/master/public/datepicker.png">
 
-in the RegisterController add birth_date attributes like so
+in the RegisterController.php add birth_date attributes like so
 
   protected function validator(array $data)
-  
     {
        
 	   return Validator::make($data, [
