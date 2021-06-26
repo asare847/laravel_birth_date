@@ -4,6 +4,7 @@ php artisan make:migration add_birthdate_to_users_table
 in the migration file add  to the table
 $table->date('birth_date')
  
+ Run php artisan migrate
 
         
 
