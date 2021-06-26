@@ -14,6 +14,7 @@ In app.blade.php add  this code to it
       </script>
 
 Add birth date input to register.php
+
  <div class="col-md-6">
      <input id="birth_date" type="text" class="form-control datepicker  @error('date_birth') is-invalid @enderror" name="birth_date" required autocomplete="birth_date">
  </div>
