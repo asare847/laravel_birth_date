@@ -1,3 +1,10 @@
+
+
+Schema::table('users', function (Blueprint $table) {
+            $table->date('birth_date');
+        });
+        
+
 Adding date of birth to registration from calender using jQuery datepicker
 
 In app.blade.php add  this code to it
