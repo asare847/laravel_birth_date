@@ -1,4 +1,6 @@
 
+
+
 class AddBirthDateToUsersTable extends Migration{
     /**
      * Run the migrations.
@@ -10,6 +12,7 @@ class AddBirthDateToUsersTable extends Migration{
         Schema::table('users', function (Blueprint $table) {
             $table->date('birth_date')->nullable();
         });
+    }
     }
         
 
