@@ -23,9 +23,10 @@ Add birth date input to register.php
 
 in the RegisterController.php add birth_date attributes like so
 
-  protected function validator(array $data)
+ 
+
+    protected function validator(array $data)
     {
-       
 	   return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
