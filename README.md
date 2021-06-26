@@ -1,20 +1,8 @@
+make migration 
+php artisan make:migration add_birthdate_to_users_table
 
+in the migration
 
-
-class AddBirthDateToUsersTable extends Migration{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::table('users', function (Blueprint $table) 
-        {
-            $table->date('birth_date')->nullable();
-        });
-    }
-    }
         
 
 Adding date of birth to registration from calender using jQuery datepicker
